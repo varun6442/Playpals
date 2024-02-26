@@ -1,0 +1,126 @@
+.profile {
+    min-height: 100vh;
+    background-image: url("../../img/profile.jpeg");
+    padding-top: 50px;
+    text-align: center;
+}
+
+.leftSidebar {
+    width: 27%;
+    border: 2px solid lightgray;
+    height: 800px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.rightContent {
+    width: 73%;
+    border: 2px solid lightgray;
+    height: auto;
+    border-radius: 10px;
+
+}
+
+.profileContainer {
+    display: flex;
+    margin-top: 50px;
+}
+
+.userDetails {
+    text-align: center;
+}
+
+.listItems {
+    text-align: left;
+    padding: 12px;
+    // background-color: #01b562;
+    background-color: white;
+    color: black;
+    margin-bottom: 5px;
+    cursor: pointer;
+
+}
+
+.listText {
+    position: relative;
+    bottom: 5px;
+    margin-left: 10px;
+}
+
+.rightContent {
+    padding: 20px;
+}
+
+.tabPanel {
+    width: 500px;
+    height: 70px;
+    border-radius: 5px;
+    background-color: #f0f3f2;
+}
+
+.tabPanel {
+    display: flex;
+}
+
+.eventList {
+    border: 1px solid lightgrey;
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    &:hover {
+        box-shadow: 0 16px 64px -16px rgb(46 55 77 / 24%);
+    }
+}
+
+
+
+.eventTitle {
+    max-width: 500px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.eventDate {
+    font-size: 14px;
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+
+.eventDescription {
+
+    margin-top: 10px;
+}
+
+.active {
+    background-color: #01b562;
+}
+
+.editProfile {
+    display: flex;
+    flex-direction: column;
+}
+
+.saveButton {
+    float: right;
+    margin-top: 20px !important;
+    background-color: #ca3432 !important;
+    color: #ffffff !important;
+}
+
+.profile-create {
+    background-color: #ca3432 !important;
+    color: #ffffff !important;
+    padding: 5px;
+    font-size: 20px !important;
+    padding-left: 15px !important;
+
+}
+
+.profileDetails {
+    margin-top: 20px;
+}

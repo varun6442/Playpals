@@ -1,0 +1,24 @@
+$color_1: white;
+$background-color_1: #22435A;
+
+.labelInfo {
+	background-color: $background-color_1;
+	padding: 3px 6px;
+	border-radius: 10px;
+	color: $color_1;
+	font-size: 1rem;
+}
+
+.icon {
+	margin-top: 3.5px;
+	margin-right: .4rem;
+}
+
+.createvent-btn {
+	background-color: #ca3432 !important;
+	color: #ffffff !important;
+}
+
+.event-item {
+	padding: 20px;
+}

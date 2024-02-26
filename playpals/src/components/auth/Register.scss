@@ -1,0 +1,44 @@
+$color_1: rgb(113, 199, 113);
+
+.register {}
+
+.register__card {
+	margin-top: 2rem;
+	padding: 2rem;
+	box-shadow: 2px 4px 10px 5px rgba(113, 201, 199, 2);
+	transition: 0.3s;
+	opacity: 0.9;
+	box-shadow: 5px 10px 16px 0 rgba(40, 43, 48, 0.5);
+}
+
+
+.backImage {
+	background-size: cover;
+	height: 100vh;
+	background-image: url("./../../img/register.png");
+}
+
+.register__info {
+	display: block;
+	margin-top: 1rem !important;
+}
+
+.btn__progress {
+	color: $color_1 !important;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -12px;
+	margin-left: -12px;
+}
+
+@media (max-width: 900px) {
+	.register__card {
+		padding: .5rem;
+	}
+}
+
+.newuser-btn {
+	background-color: #ca3432 !important;
+	color: #ffffff !important;
+}

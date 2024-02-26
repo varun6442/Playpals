@@ -1,0 +1,53 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@fullcalendar/daygrid": "^5.11.3",
+    "@fullcalendar/react": "^5.11.3",
+    "@material-ui/core": "^4.11.14",
+    "@material-ui/icons": "^4.9.1",
+    "@mui/icons-material": "^5.10.16",
+    "@mui/material": "^5.10.16",
+    "@sendgrid/mail": "^7.7.0",
+    "axios": "^0.21.1",
+    "classnames": "^2.2.6",
+    "emailjs": "^4.0.1",
+    "fs": "^0.0.1-security",
+    "jwt-decode": "^2.2.0",
+    "leaflet": "^1.6.0",
+    "moment": "^2.22.2",
+    "react": "17.0.0",
+    "react-dom": "17.0.0",
+    "react-google-charts": "^4.0.0",
+    "react-leaflet": "^2.7.0",
+    "react-moment": "^1.1.2",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "5.0.1",
+    "redux": "^4.2.0",
+    "redux-thunk": "^2.3.0",
+    "request-promise": "^4.2.2",
+    "sass": "^1.56.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "browser": {
+    "fs": false
+  },
+  "node": {
+    "fs": "empty"
+  }
+}

@@ -1,0 +1,34 @@
+.eventList_card {
+
+    box-shadow: 8px 12px 25px 8px #0000001a !important;
+
+    &:hover { box-shadow: 5px 10px 16px 0 rgba(234, 235, 237, 0.5) !important;}
+
+    cursor: pointer;
+
+    padding-bottom: .5rem !important;
+
+    border-radius: .5rem !important;
+
+    transition: transform 0.3s !important;
+
+    margin-left: 2rem !important;
+
+}
+
+
+
+.eventList_card:hover {
+
+    transform: translate3d(4px,4px,4px) !important;
+
+    position: relative !important;
+
+    top: 0px !important;
+
+  }
+
+  .createvent-btn {
+	background-color: #ca3432 !important;
+	color: #ffffff !important;
+}

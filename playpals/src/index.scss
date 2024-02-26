@@ -1,0 +1,239 @@
+$color_1: rgb(30, 19, 19);
+$color_2: rgb(19, 18, 18);
+$color_3: #224a66;
+$color_4: rgb(26, 24, 24);
+$font-family_1: 'Montserrat', sans-serif;
+$background-color_1: #ffffff;
+$background-color_2: #81778f;
+@import "https://fonts.googleapis.com/css?family=Montserrat&display=swap";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $font-family_1;
+}
+
+.map {
+  height: 400px;
+}
+
+.logo {
+  width: 5rem;
+  margin-bottom: 3px;
+  margin-top: 3px;
+  margin-right: 5%;
+  margin-left: 1%;
+  padding-right: 1rem;
+  padding-left: 0rem;
+}
+
+.logo_footer {
+  width: 5rem;
+  margin-bottom: 1px;
+  margin-top: 1px;
+  margin-right: 50%;
+  margin-left: 1%;
+  padding-right: 1rem;
+  padding-left: 0rem;
+}
+
+.sportType {
+
+  position: relative !important;
+
+  bottom: 25px !important;
+
+  padding-bottom: 10px !important;
+
+  margin-left: 1rem !important;
+
+  padding-right: 10px !important;
+
+  padding-left: 1px !important;
+
+}
+
+.card {
+  padding: 1rem;
+}
+
+.siderdrawer-icon {
+  min-width: 2.4rem !important;
+}
+
+.down-arrow {
+  margin-left: -5px;
+  margin-top: 4.5px;
+}
+
+.footer-links {
+  margin-top: 1px !important;
+  margin-bottom: 5rem !important;
+  padding-left: 325px !important;
+  padding-right: 1px !important;
+  margin: 1px !important;
+  padding-bottom: 20px !important;
+  min-width: 20px !important;
+}
+
+.primary-color {
+  background-color: $background-color_1 !important;
+  margin-bottom: 1px !important;
+  position: sticky !important;
+  text-align: center !important;
+  position: 0px !important;
+}
+
+.secondary-color {
+  background-color: $background-color_2 !important;
+  color: $color_2 !important;
+  height: 2rem;
+}
+
+.primary-textColor {
+  color: $color_3 !important;
+}
+
+.white-link {
+  text-decoration: inherit !important;
+  color: $color_4;
+  margin: 0 .7rem;
+
+  &:link {
+    text-decoration: inherit !important;
+    color: $color_4;
+    margin: 0 .7rem;
+  }
+
+  &:visited {
+    text-decoration: inherit !important;
+    color: $color_4;
+    margin: 0 .7rem;
+  }
+}
+
+.toolbarRight {
+  margin-left: auto;
+}
+
+.hiddenDesk {
+  display: block;
+  color: black;
+}
+
+.hiddenMobile {
+  display: none;
+}
+
+.xm-1 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.marginX-1 {
+  margin-top: 3rem;
+  margin-bottom: .4rem;
+}
+
+.marginX-2 {
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+
+.marginX-5 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.marginT-1 {
+  margin-top: .5rem !important;
+}
+
+.marginT-2 {
+  margin-top: 1rem !important;
+}
+
+.marginT-3 {
+  margin-top: 8rem !important;
+}
+
+.marginT-5 {
+  margin-top: 5rem !important;
+}
+
+.marginR-1 {
+  margin-right: 1rem !important;
+  height: 2rem;
+}
+
+.marginL-d7 {
+  margin-left: 15rem !important;
+  padding-left: 150px !important;
+  padding-top: 0px !important;
+  min-width: 10px !important;
+}
+
+.marginL-1 {
+  margin-left: 1rem !important;
+}
+
+.marginB-1 {
+  margin-bottom: 1rem !important;
+}
+
+.marginB-2 {
+  margin-bottom: 2rem !important;
+}
+
+.pad-1 {
+  padding: 1rem;
+}
+
+.pad-2 {
+  padding: 1rem;
+  padding-top: 1px !important;
+}
+
+.padB-0 {
+  padding-bottom: 0 !important;
+}
+
+.icon-s {
+  font-size: 1.9rem !important;
+}
+
+.icon-m {
+  font-size: 2.1rem !important;
+}
+
+.floatRight {
+  float: right;
+}
+
+.minHeight {
+  min-height: 570px;
+  text-align: center !important;
+}
+
+.relative {
+  position: relative !important;
+}
+
+.body1 {
+  position: relative !important;
+  top: 15px !important;
+}
+
+@media only screen and (max-width: 760px) {
+  .hiddenDesk {
+    display: none;
+  }
+
+  .hiddenMobile {
+    display: block;
+  }
+}
+.homelogin-btn {
+	background-color: #ca3432 !important;
+	color: #ffffff !important;
+}

@@ -1,0 +1,20 @@
+$color_1: rgb(106, 109, 108);
+
+.cardCreateEvent {
+	border: 2px solid rgba(147, 140, 164, 0.5);
+	border-radius: 4px;
+	color: $color_1 !important;
+}
+
+.host {
+	background-image: url("./../../img/event.jpeg") !important;
+	background-size: cover !important;
+}
+
+.createvent-btn {
+	background-color: #ca3432 !important;
+	color: #ffffff !important;
+}
+.create-event{
+	display: flex;
+}

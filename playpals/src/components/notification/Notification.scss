@@ -1,0 +1,50 @@
+$color_1: red;
+$background-color_1: #eaeeef;
+$background-color_2: transparent;
+$background-color_3: yellow;
+
+.notification {
+	border: 3px solid #52686d;
+	background-color: $background-color_1;
+	position: absolute;
+	overflow: auto;
+	height: 300px;
+	width: 300px;
+	z-index: 10;
+	padding-top: 10px;
+}
+.notification__container {
+	padding: 0 20px;
+}
+.notification__item {
+	padding: 5px 10px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+.notification__number {
+	border: 1px solid red;
+	border-radius: 50%;
+	padding: 2px 3.5px 2px 2px;
+}
+.notification__date {
+	margin: 0;
+	text-align: right;
+}
+.notification__removeButton {
+	display: block;
+	float: right;
+	border: none;
+	background-color: $background-color_2;
+	color: $color_1;
+	font-size: 1rem;
+	cursor: pointer;
+	&:hover {
+		font-size: 1.05rem;
+	}
+}
+.notification__text {
+	font-size: .8rem;
+}
+.notification__notRead {
+	background-color: $background-color_3;
+}

@@ -1,0 +1,55 @@
+$color_1: green;
+
+@keyframes mymove {
+	50% {
+		box-shadow: 10px 20px 30px rgb(105, 9, 9);
+	}
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.login {
+	min-height: 10px;
+}
+
+.background {
+	background-size: cover;
+	height: 100vh;
+	background-image: url("./../../img/background_6.png");
+}
+
+.login_card {
+	margin: 3rem;
+	padding: 15px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+	animation: mymove 5s infinite;
+}
+
+.login_info {
+	display: block;
+	margin-top: 1rem;
+}
+
+.btn_progress {
+	color: $color_1;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -12px;
+	margin-left: -12px;
+}
+
+@media (max-width: 900px) {
+	.login_card {
+		padding: .5rem !important;
+	}
+}
+
+.submit-btn {
+	background-color: #ca3432 !important;
+	color: #ffffff !important;
+	padding-left: 20px;
+}
