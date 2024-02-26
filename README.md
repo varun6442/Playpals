@@ -96,10 +96,6 @@ Twilio for Login with OTP.<br>
 
 
 
-## Team
-Shobhit Srivastava(srivastava.sho@northeastern.edu)[002965382] <br>
-Shreya Baliga(baliga.s@northeastern.edu)[002795178] <br>
-Anuja Patil(patil.anuj@northeastern.edu)[002797645] <br>
-Rishab Rajesh Agarwal(agarwal.risha@northeastern.edu)[002766211]
+
 
 
