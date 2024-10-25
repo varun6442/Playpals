@@ -3,7 +3,7 @@ Playpals  connects you to whatever it takes to get your game on, be it to meet p
 
 
 
-### Domain Driven Design
+### Domain Driven Design :
 
 
 
@@ -11,7 +11,7 @@ Playpals  connects you to whatever it takes to get your game on, be it to meet p
 
 
 
-### Flow of the application:
+### Flow of the application
 
 
 
